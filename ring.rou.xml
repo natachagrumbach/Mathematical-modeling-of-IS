@@ -1,0 +1,55 @@
+<routes>
+   <vType id="learning_car" accel="10" decel="10" sigma="0" length="5" maxSpeed="8"/>
+   <vType id="leader_car" accel="0.4" decel="5" sigma="0" length="5" maxSpeed="3"/>
+   <vType id="slow_car" accel="0.4" decel="5" sigma="0" length="5" maxSpeed="2"/>
+
+   <route id="ring_route" color="1,1,0" edges="1to2 2to3"/>
+
+   <vehicle id="leader" type="leader_car" route="ring_route" depart="0" color="0,0,1"/>
+
+   <vehicle id="learning_vehicle" type="learning_car" route="ring_route" depart="10" color="1,0,0"/>
+
+   <vehicle id="other1" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other2" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other3" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other4" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other5" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other6" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other7" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other8" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other9" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other10" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other11" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other12" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other13" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other14" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other15" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other16" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other17" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other18" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other19" type="leader_car" route="ring_route" depart="20" color="1,0,1"/>
+   <vehicle id="other20" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other21" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other22" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other23" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other24" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other25" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other26" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other27" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other28" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other29" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other30" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+<!--   <vehicle id="other31" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other32" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other33" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other34" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other35" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other36" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other37" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other38" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other39" type="leader_car" route="ring_route" depart="20" color="0,1,0"/>
+   <vehicle id="other40" type="leader_car" route="ring_route" depart="20" color="1,0,1"/>
+-->
+
+
+</routes>
